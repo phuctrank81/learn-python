@@ -54,3 +54,13 @@ locTran = [1,4,5,-5]
 print(locTran)  # Output: [-5, 5, 4, 1]
 new_list = locTran[::-1]
 print(new_list)  
+
+""" 5 """
+insertList = [1,2,3,4]
+insertList.insert(0,45)
+print(insertList)  # Output: [45, 1, 2, 3, 4]
+
+""" 6 """
+phucdepTrai = [1,2,3,4,5]
+del phucdepTrai[0]
+print(phucdepTrai)  # Output: [2, 3, 4, 5]
