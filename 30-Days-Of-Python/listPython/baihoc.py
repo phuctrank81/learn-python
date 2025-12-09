@@ -62,5 +62,11 @@ print(insertList)  # Output: [45, 1, 2, 3, 4]
 
 """ 6 """
 phucdepTrai = [1,2,3,4,5]
-del phucdepTrai[0]
+# del phucdepTrai[0]
+del phucdepTrai[:2]
 print(phucdepTrai)  # Output: [2, 3, 4, 5]
+
+""" 7 """
+conCac = [1,4523,34,52]
+numbberIndex = conCac.index(34)
+print(numbberIndex)  # Output: 0
